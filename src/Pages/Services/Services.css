@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital@1&display=swap');
+
+.service__container{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 20px;
+      width: 100%;
+      background-color: rgb(29, 24, 24);
+     
+}
+.service__img{
+      width: 100%;
+      border-radius: 15px 15px 0px 0px;
+}
+.service__card{
+      font-family:  poppins , sans-serif;
+      margin-top: 10px;
+      width: 100%;
+      /* padding:20px; */
+      background-color: rgb(226, 228, 229);
+      border-radius: 15px;
+}

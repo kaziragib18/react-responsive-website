@@ -1,0 +1,44 @@
+[
+      {
+          "id": 1,
+          "name": "ENGINE DIAGNOSTIC",
+          "price": "300",
+          "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+          "img": "https://images.unsplash.com/photo-1527383418406-f85a3b146499?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FyJTIwZW5naW5lfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+      },
+      {
+          "id": 2,
+          "name": "WHEEL ALIGNMENT",
+          "price": "100",
+          "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+          "img": "https://images.unsplash.com/photo-1593699199342-59b40e08f0ac?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8Y2FyJTIwbWVjaGFuaWN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+      },
+      {
+          "id": 3,
+          "name": "OIL CHANGING",
+          "price": "150",
+          "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+          "img": "https://images.unsplash.com/photo-1487754180451-c456f719a1fc?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Y2FyJTIwbWVjaGFuaWN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+      },
+      {
+          "id": 4,
+          "name": "BRAKE REPARING",
+          "price": "180",
+          "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+          "img": "https://images.unsplash.com/photo-1613214150333-53afb7561e6d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGNhciUyMG1lY2hhbmljfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+      },
+      {
+          "id": 5,
+          "name": "WASH AND GLASSING",
+          "price": "100",
+          "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+          "img": "https://images.unsplash.com/photo-1575844611398-2a68400b437c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y2FyJTIwd2FzaHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+      },
+      {
+          "id": 6,
+          "name": "COMPLETE ANALYSIS",
+          "price": "300",
+          "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
+          "img": "https://images.unsplash.com/photo-1548184274-f1d3776448b3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGNhciUyMG1lY2hhbmljfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+      }
+  ]
