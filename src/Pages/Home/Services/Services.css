@@ -15,8 +15,22 @@
 .service__card{
       font-family:  poppins , sans-serif;
       margin-top: 10px;
+
       width: 100%;
       /* padding:20px; */
       background-color: rgb(226, 228, 229);
       border-radius: 15px;
+}
+
+@media only screen and (max-width:688px) {
+      .service__container{
+            grid-template-columns: repeat(1, 1fr);
+      }
+      
+}
+
+@media only screen and (min-width:689px) and (max-width:991px) {
+      .service__container{
+            grid-template-columns: repeat(2, 1fr);
+      }
 }
