@@ -10,42 +10,43 @@ import Booking from './Pages/Booking/Booking/Booking';
 import Login from './Pages/Login/Login/Login';
 import Header from './Pages/Shared/Header/Header';
 import Footer from './Pages/Shared/Footer/Footer';
-
-
+import AuthProvider from './contexts/AuthProvider';
+import PrivateRoute from './Pages/Login/Login/PrivateRoute/PrivateRoute';
 
 function App() {
   return (
     <div className="App">
-      <Router>
-        <Header></Header>
-        <Switch>
-          <Route exact path="/">
-            <Home></Home>
-          </Route>
+      <AuthProvider>
+        <Router>
+          <Header></Header>
+          <Switch>
 
-          <Route path="/home">
-            <Home></Home>
-          </Route>
+            <Route exact path="/">
+              <Home></Home>
+            </Route>
 
-          <Route path="/login">
-            <Login></Login>
-          </Route>
+            <Route path="/home">
+              <Home></Home>
+            </Route>
 
-          <Route path="/booking/:serviceId">
-            <Booking></Booking>
+            <Route path="/login">
+              <Login></Login>
+            </Route>
 
-          </Route>
+            <PrivateRoute path="/booking/:serviceId">
+              <Booking></Booking>
+            </PrivateRoute>
 
-          
-          <Route path="*">
-            <NotFound></NotFound>
-          </Route>
+            <Route path="*">
+              <NotFound></NotFound>
+            </Route>
 
-        </Switch>
-        <Footer></Footer>
-      </Router>
-      
-      
+          </Switch>
+          <Footer></Footer>
+        </Router>
+
+      </AuthProvider>
+
     </div>
   );
 }

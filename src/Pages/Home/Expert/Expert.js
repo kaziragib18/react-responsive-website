@@ -8,7 +8,7 @@ const Expert = ({expert}) => {
                   <div className="border border-dark rounded w-100 bg-light">
                   <img className="w-100" src={img} alt="" />
                   <h4 className="text-dark pt-3 fs-5 fw-bold" >{name}</h4>
-                  <h5 className="text-info fs-6 mb-3">{expertize}</h5>
+                  <h5 className="text-primary fs-6 fw-bold mb-3">{expertize}</h5>
                   </div>
             </div>
       );
