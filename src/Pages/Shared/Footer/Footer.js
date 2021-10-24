@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../../images/logo/logo.PNG";
+import logo from "../../../images/logo/logo-2.PNG";
 import "./Footer.css";
 
 const Footer = () => {
@@ -9,7 +9,7 @@ const Footer = () => {
                         <div className="row">
                               <div className="col-md-3 ">
                                     <div className="first__part p-2 mt-2">
-                                          <img className="logo__img" src={logo} alt="" />
+                                          <img className="footer__img" src={logo} alt="" />
                                           <h6 className="mt-4">About Us</h6>
                                           <p>Lorem ipsum dolor sit amet.</p>
                                          
