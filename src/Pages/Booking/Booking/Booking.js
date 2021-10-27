@@ -1,11 +1,19 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
 
 const Booking = () => {
       const { serviceId } = useParams();
+      const [service, setService] = useState([]);
+
+      useEffect(() => {
+            fetch(`https://intense-lake-63088.herokuapp.com/services/${serviceId}`)
+                  .then(res => res.json())
+                  .then(data => setService(data))
+      }, [])
       return (
             <div>
-                  <h2 className="text-white">this is booking page: {serviceId}</h2>
+                  <h2 className="text-white p-3">Details: {service.name}</h2>
+                  <h2 className="text-white p-3">Id: {serviceId}</h2>
             </div>
       );
 };

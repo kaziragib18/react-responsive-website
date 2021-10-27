@@ -13,6 +13,7 @@ import Footer from './Pages/Shared/Footer/Footer';
 import AuthProvider from './contexts/AuthProvider';
 import PrivateRoute from './Pages/Login/Login/PrivateRoute/PrivateRoute';
 import AddService from './Pages/AddService/AddService';
+import ManageServices from './Pages/ManageServices/ManageServices';
 
 function App() {
   return (
@@ -40,6 +41,10 @@ function App() {
 
             <Route path="/addService">
               <AddService></AddService>
+            </Route>
+
+            <Route path="/manageServices">
+              <ManageServices></ManageServices>
             </Route>
 
             <Route path="*">
